@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# LangChain
+.langchain/
+langchain_cache/
+
+# ChromaDB
+chroma/
+chroma_db/
+.chroma/
+chromadb/
+*.chroma
+
+# Ollama (local model cache - 용량이 크므로 제외)
+.ollama/
+ollama_models/
+
+# Vector stores / Embeddings cache
+vectorstore/
+vector_store/
+embeddings_cache/
+faiss_index/
+*.faiss
+*.pkl
+
+# LLM cache / response cache
+llm_cache/
+.cache/
+cache/
+
+# Data files (원본 데이터, 대용량 파일)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+# Document files (RAG 소스 문서 - 저작권/용량 이슈)
+docs/
+documents/
+*.pdf
+*.docx
+*.dotx
+*.pptx
+*.xlsx
+
+# Logs
+*.log
+logs/
+log/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
